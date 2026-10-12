@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loferite: support and privacy &amp; terms</title>
+<meta name="description" content="Support, privacy policy and terms of use for Loferite, a neuroimaging and EEG viewer for research and education.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1c2430;
+    --muted: #5a6573;
+    --rule: #dde2e8;
+    --link: #007A81;
+    --note-bg: #f2f7f8;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 4rem;
+  }
+  header h1 {
+    font-family: var(--sans);
+    font-size: clamp(2.4rem, 7vw, 3.4rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin: 0 0 0.75rem;
+  }
+  header p {
+    font-size: 1.15rem;
+    color: var(--muted);
+    margin: 0 0 1.5rem;
+    max-width: 34rem;
+  }
+  .colorbar {
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ffd27a, #ff9a1f, #e8590c);
+    margin: 0 0 1.25rem;
+  }
+  nav {
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+  }
+  a { color: var(--link); text-underline-offset: 0.15em; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; border-radius: 2px; }
+  section {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    scroll-margin-top: 1rem;
+  }
+  h2 {
+    font-family: var(--sans);
+    font-size: 1.6rem;
+    font-weight: 650;
+    letter-spacing: -0.015em;
+    margin: 0 0 1rem;
+  }
+  dl { margin: 1.5rem 0 0; }
+  dt {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  dd { margin: 0.3rem 0 0; }
+  .note {
+    background: var(--note-bg);
+    border-left: 3px solid #00979F;
+    padding: 0.9rem 1.1rem;
+    margin: 1.25rem 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .meta { color: var(--muted); font-size: 0.95rem; }
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  @media print {
+    .colorbar, nav { display: none; }
+    section { break-inside: avoid-page; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Loferite</h1>
+    <p>Neuroimaging Toolkit</p>
+    <div class="colorbar" role="presentation"></div>
+    <nav aria-label="Page sections">
+      <a href="#support">Support</a>
+      <a href="#privacy">Privacy policy</a>
+      <a href="#terms">Terms of use</a>
+    </nav>
+  </header>
+
+  <!-- ================= SUPPORT ================= -->
+  <section id="support">
+    <h2>Support</h2>
+    <p>Found a problem, or have an idea for Loferite? Write to
+      <a class="email" href="#contact">loferite [at] tuta [dot] io</a>.</p>
+    <p>The quickest way is from inside the app: <strong>Settings ▸ Support ▸ Send feedback</strong>.
+      This opens a pre-filled email in your Mail app with the app version, device model and iOS version,
+      so you don't have to look them up. You review the message and send it yourself.</p>
+    <p class="note">Please don't include personal, patient or research-subject information, or any images, in your message.</p>
+  </section>
+
+  <!-- ================= PRIVACY ================= -->
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <p>In short: Loferite does not collect any data. Everything you import stays on your device.</p>
+
+    <dl>
+      <dt>On-device only</dt>
+      <dd>Images, volumes, meshes, tractography and EEG recordings you import are copied into the app's
+        private storage and never leave the device.</dd>
+
+      <dt>No network, no tracking</dt>
+      <dd>The app makes no network connections with your data, and includes no analytics, tracking
+        or advertising.</dd>
+
+      <dt>Not synced or backed up</dt>
+      <dd>Your files and the library index are excluded from backups (including cloud backups) and are
+        not accessible through the Files app.</dd>
+
+      <dt>Diagnostics log</dt>
+      <dd>A local activity log (Settings ▸ Diagnostics) stays on this device, is size-capped and trimmed
+        automatically, and can be cleared at any time. It is never sent automatically; a redacted copy
+        is included with feedback only if you choose to attach it.</dd>
+
+      <dt>Feedback (optional)</dt>
+      <dd>If you choose to send feedback (Settings ▸ Support ▸ Send feedback), your device's Mail app
+        opens a message that you review and send yourself. Nothing is sent automatically. It contains
+        only a short technical diagnostic (app version, device model, iOS version) and, strictly if you
+        opt in, a redacted copy of the activity log. It never includes images, volumes, patient data or
+        file names.</dd>
+
+      <dt>When you email the developer</dt>
+      <dd>If you send an email, the developer receives your email address and the content of your
+        message, and uses them only to reply to you and to fix the problem you report. This is done on
+        the basis of the developer's legitimate interest in supporting the app (and, where a contract
+        applies, to perform it). Messages are kept for as long as needed to handle your request, and no
+        longer than 12 months, unless the law requires otherwise. They are not shared with anyone or used
+        for any other purpose. You can ask for them to be deleted at any time by writing to
+        <a class="email" href="#contact">loferite [at] tuta [dot] io</a>.</dd>
+
+      <dt>Data you import</dt>
+      <dd>The developer has no access to anything you import into Loferite. For that data you, or your
+        institution, remain the data controller, and you are responsible for having the right to use it.</dd>
+
+      <dt>Your rights</dt>
+      <dd>Depending on where you live, you may have the right to access, correct or delete personal data
+        the developer holds about you (in practice, only your emails), to object to its processing, and
+        to lodge a complaint with your data-protection authority. In the EU/EEA and UK these rights come
+        from the GDPR; in Italy the authority is the Garante per la protezione dei dati personali. To
+        exercise any right, write to <a class="email" href="#contact">loferite [at] tuta [dot] io</a>.</dd>
+
+      <dt>Children</dt>
+      <dd>Loferite is intended for adult researchers and students. It is not directed at
+        children, and it collects no data from anyone.</dd>
+
+      <dt>This website</dt>
+      <dd>This page uses no cookies and no analytics. It is hosted on GitHub Pages; as with any website,
+        the hosting provider may record technical data such as IP addresses in its server logs, under
+        <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</dd>
+
+      <dt>Deleting data</dt>
+      <dd>Because nothing leaves the device, removing a study, or deleting the app, permanently removes
+        the associated data.</dd>
+
+      <dt>Changes to this policy</dt>
+      <dd>If this policy changes, the updated version will be published on this page with a new date.</dd>
+
+      <dt id="contact">Contact</dt>
+      <dd>Loferite is developed by the individual listed as the seller on the App Store. For any privacy
+        question, write to
+        <a class="email" href="#contact">loferite [at] tuta [dot] io</a>.</dd>
+    </dl>
+  </section>
+
+  <!-- ================= TERMS ================= -->
+  <section id="terms">
+    <h2>Terms of use</h2>
+
+    <dl>
+      <dt>Educational and non-clinical use only</dt>
+      <dd>Loferite is a viewing and educational tool. It is <strong>not</strong> a medical device and is
+        <strong>not</strong> intended for clinical or diagnostic use, treatment decisions, or any purpose
+        affecting patient care.</dd>
+
+      <dt>No warranty</dt>
+      <dd>The app is provided “as is”, without warranty of any kind. File handling, rendering and derived
+        views (MPR, 3D, EEG electrode positions, and so on) may contain errors. Even <em>basic</em>
+        details such as left/right laterality may be wrong. Always verify against a validated system.</dd>
+
+      <dt>Your responsibility</dt>
+      <dd>You are responsible for the data you import and for complying with your institution's rules and
+        permissions, as well as any applicable privacy and data-protection laws. Do not use Loferite where
+        a certified medical device is required. When sending feedback, do not include any patient
+        information or images in your message.</dd>
+
+      <dt>Limitation of liability</dt>
+      <dd>To the maximum extent permitted by law, the developer is not liable for any damages arising from
+        the use of, or inability to use, Loferite.</dd>
+
+      <dt>License</dt>
+      <dd>Loferite is proprietary software. All rights reserved. Third-party components are listed in
+        Settings ▸ Acknowledgements.</dd>
+    </dl>
+  </section>
+
+  <footer>
+    <p>Last updated: October 12, 2026</p>
+    <p>© 2026 the developer of Loferite. All rights reserved.</p>
+  </footer>
+
+</main>
+
+<script>
+  // Support address is assembled here.
+  (function () {
+    var user = "loferite";
+    var domain = ["tuta", "io"].join(".");
+    var address = user + "@" + domain;
+    var links = document.querySelectorAll("a.email");
+    for (var i = 0; i < links.length; i++) {
+      links[i].textContent = address;
+      links[i].setAttribute("href", "mailto:" + address);
+    }
+  })();
+</script>
+</body>
+</html>
