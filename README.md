@@ -4,6 +4,12 @@
 
 Loferite is an iOS app for viewing neuroimaging and EEG data, intended for research and education. It is **not** a medical device and is not intended for clinical or diagnostic use.
 
+
+<a href="https://apps.apple.com/it/app/loferite/id6816339866?itscg=30200&itsct=apps_box_badge&mttnsubad=6816339866" style="display: inline-block;">
+    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1794441600" alt="Download on the App Store" style="height: 50px; vertical-align: middle; object-fit: contain;" />
+</a>
+
+
 ## What's in this repository
 
 | Item | Content |
