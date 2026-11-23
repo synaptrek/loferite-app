@@ -14,7 +14,7 @@ Loferite is an iOS app for viewing neuroimaging and EEG data, intended for resea
 
 | Item | Content |
 |---|---|
-| `index.html` | Support, Privacy Policy and Terms of Use, published with GitHub Pages at **[https://loferiteapp.github.io/loferite/](https://synaptrek.github.io/loferite-app/)**. This page is the Privacy Policy URL used on the App Store. |
+| `index.html` | Support, Privacy Policy and Terms of Use, published with GitHub Pages at **[https://synaptrek.github.io/loferite-app/](https://synaptrek.github.io/loferite-app/)**. This page is the Privacy Policy URL used on the App Store. |
 | Test package (zip) | Sample files for trying the viewer. **Download:** [Releases](../../releases) ▸ `[LoferiteTestPackage.zip]` |
 | `README.md` | This file. |
 
